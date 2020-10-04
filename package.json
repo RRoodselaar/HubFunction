@@ -1,0 +1,32 @@
+{
+  "name": "hubfunction",
+  "version": "0.1.0",
+  "description": "Setting up a communications hub within a Netlify (AWS hosted) function",
+  "main": "functions/hello.js",
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RRoodselaar/HubFunction.git"
+  },
+  "keywords": [
+    "javascript",
+    "serverless",
+    "function",
+    "Node",
+    "Netlify",
+    "AWS",
+    "lambda"
+  ],
+  "author": "Remko Roodselaar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RRoodselaar/HubFunction/issues"
+  },
+  "homepage": "https://github.com/RRoodselaar/HubFunction#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3"
+  }
+}
