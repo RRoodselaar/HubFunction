@@ -28,5 +28,9 @@
   "homepage": "https://github.com/RRoodselaar/HubFunction#readme",
   "devDependencies": {
     "netlify-lambda": "^1.4.3"
+  },
+  "dependencies": {
+    "simple-oauth2": "^4.1.0",
+    "simple-oauth2-google-plus": "^0.5.1"
   }
 }
